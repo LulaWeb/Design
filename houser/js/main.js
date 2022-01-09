@@ -1,10 +1,7 @@
 /*  ---------------------------------------------------
-    Theme Name: Azenta
-    Description:
-    Author:
-    Author URI:
-    Version: 1.0
-    Created:
+    Theme Name: Lulamile
+
+    Created:09/01/2022
 ---------------------------------------------------------  */
 
 'use strict';
@@ -307,7 +304,7 @@
             $("#priceRange").val("[" + ui.values[0] + "-" + ui.values[1] + "]" + "R");
         }
     });
-    $("#priceRange").val("[" + $("#price-range").slider("values", 0) + "-" + $("#price-range").slider("values", 1) + "]" + "$");
+    $("#priceRange").val("[" + $("#price-range").slider("values", 0) + "-" + $("#price-range").slider("values", 1) + "]" + "Rand(s)");
 
     //price 2
     $("#price-range-P").slider({
